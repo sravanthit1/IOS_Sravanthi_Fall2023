@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFFD66EF2B09295800597211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD66EE2B09295800597211 /* AppDelegate.swift */; };
+		EFFD66F12B09295800597211 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD66F02B09295800597211 /* SceneDelegate.swift */; };
+		EFFD66F32B09295800597211 /* GenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD66F22B09295800597211 /* GenreViewController.swift */; };
+		EFFD66F62B09295800597211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFFD66F42B09295800597211 /* Main.storyboard */; };
+		EFFD66F82B09295900597211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFFD66F72B09295900597211 /* Assets.xcassets */; };
+		EFFD66FB2B09295900597211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFFD66F92B09295900597211 /* LaunchScreen.storyboard */; };
+		EFFD67062B09295900597211 /* Thukivakam_MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD67052B09295900597211 /* Thukivakam_MoviesTests.swift */; };
+		EFFD67102B09295900597211 /* Thukivakam_MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD670F2B09295900597211 /* Thukivakam_MoviesUITests.swift */; };
+		EFFD67122B09295900597211 /* Thukivakam_MoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD67112B09295900597211 /* Thukivakam_MoviesUITestsLaunchTests.swift */; };
+		EFFD671F2B092D3F00597211 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD671E2B092D3F00597211 /* MoviesViewController.swift */; };
+		EFFD67212B094E3E00597211 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD67202B094E3E00597211 /* MovieCollectionViewCell.swift */; };
+		EFFD67232B095EFF00597211 /* MovieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFD67222B095EFF00597211 /* MovieData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFFD67022B09295900597211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFFD66E32B09295800597211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFFD66EA2B09295800597211;
+			remoteInfo = Thukivakam_Movies;
+		};
+		EFFD670C2B09295900597211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFFD66E32B09295800597211 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFFD66EA2B09295800597211;
+			remoteInfo = Thukivakam_Movies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFFD66EB2B09295800597211 /* Thukivakam_Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thukivakam_Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFD66EE2B09295800597211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFFD66F02B09295800597211 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFFD66F22B09295800597211 /* GenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreViewController.swift; sourceTree = "<group>"; };
+		EFFD66F52B09295800597211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFFD66F72B09295900597211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFFD66FA2B09295900597211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFFD66FC2B09295900597211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFFD67012B09295900597211 /* Thukivakam_MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Thukivakam_MoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFD67052B09295900597211 /* Thukivakam_MoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thukivakam_MoviesTests.swift; sourceTree = "<group>"; };
+		EFFD670B2B09295900597211 /* Thukivakam_MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Thukivakam_MoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFD670F2B09295900597211 /* Thukivakam_MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thukivakam_MoviesUITests.swift; sourceTree = "<group>"; };
+		EFFD67112B09295900597211 /* Thukivakam_MoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thukivakam_MoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFFD671E2B092D3F00597211 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		EFFD67202B094E3E00597211 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFFD67222B095EFF00597211 /* MovieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFFD66E82B09295800597211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFD66FE2B09295900597211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFD67082B09295900597211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFFD66E22B09295800597211 = {
+			isa = PBXGroup;
+			children = (
+				EFFD66ED2B09295800597211 /* Thukivakam_Movies */,
+				EFFD67042B09295900597211 /* Thukivakam_MoviesTests */,
+				EFFD670E2B09295900597211 /* Thukivakam_MoviesUITests */,
+				EFFD66EC2B09295800597211 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFFD66EC2B09295800597211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFFD66EB2B09295800597211 /* Thukivakam_Movies.app */,
+				EFFD67012B09295900597211 /* Thukivakam_MoviesTests.xctest */,
+				EFFD670B2B09295900597211 /* Thukivakam_MoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFFD66ED2B09295800597211 /* Thukivakam_Movies */ = {
+			isa = PBXGroup;
+			children = (
+				EFFD66EE2B09295800597211 /* AppDelegate.swift */,
+				EFFD66F02B09295800597211 /* SceneDelegate.swift */,
+				EFFD66F22B09295800597211 /* GenreViewController.swift */,
+				EFFD66F42B09295800597211 /* Main.storyboard */,
+				EFFD66F72B09295900597211 /* Assets.xcassets */,
+				EFFD66F92B09295900597211 /* LaunchScreen.storyboard */,
+				EFFD66FC2B09295900597211 /* Info.plist */,
+				EFFD671E2B092D3F00597211 /* MoviesViewController.swift */,
+				EFFD67202B094E3E00597211 /* MovieCollectionViewCell.swift */,
+				EFFD67222B095EFF00597211 /* MovieData.swift */,
+			);
+			path = Thukivakam_Movies;
+			sourceTree = "<group>";
+		};
+		EFFD67042B09295900597211 /* Thukivakam_MoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFFD67052B09295900597211 /* Thukivakam_MoviesTests.swift */,
+			);
+			path = Thukivakam_MoviesTests;
+			sourceTree = "<group>";
+		};
+		EFFD670E2B09295900597211 /* Thukivakam_MoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFFD670F2B09295900597211 /* Thukivakam_MoviesUITests.swift */,
+				EFFD67112B09295900597211 /* Thukivakam_MoviesUITestsLaunchTests.swift */,
+			);
+			path = Thukivakam_MoviesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFFD66EA2B09295800597211 /* Thukivakam_Movies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFD67152B09295900597211 /* Build configuration list for PBXNativeTarget "Thukivakam_Movies" */;
+			buildPhases = (
+				EFFD66E72B09295800597211 /* Sources */,
+				EFFD66E82B09295800597211 /* Frameworks */,
+				EFFD66E92B09295800597211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thukivakam_Movies;
+			productName = Thukivakam_Movies;
+			productReference = EFFD66EB2B09295800597211 /* Thukivakam_Movies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFFD67002B09295900597211 /* Thukivakam_MoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFD67182B09295900597211 /* Build configuration list for PBXNativeTarget "Thukivakam_MoviesTests" */;
+			buildPhases = (
+				EFFD66FD2B09295900597211 /* Sources */,
+				EFFD66FE2B09295900597211 /* Frameworks */,
+				EFFD66FF2B09295900597211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFFD67032B09295900597211 /* PBXTargetDependency */,
+			);
+			name = Thukivakam_MoviesTests;
+			productName = Thukivakam_MoviesTests;
+			productReference = EFFD67012B09295900597211 /* Thukivakam_MoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFFD670A2B09295900597211 /* Thukivakam_MoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFD671B2B09295900597211 /* Build configuration list for PBXNativeTarget "Thukivakam_MoviesUITests" */;
+			buildPhases = (
+				EFFD67072B09295900597211 /* Sources */,
+				EFFD67082B09295900597211 /* Frameworks */,
+				EFFD67092B09295900597211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFFD670D2B09295900597211 /* PBXTargetDependency */,
+			);
+			name = Thukivakam_MoviesUITests;
+			productName = Thukivakam_MoviesUITests;
+			productReference = EFFD670B2B09295900597211 /* Thukivakam_MoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFFD66E32B09295800597211 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EFFD66EA2B09295800597211 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EFFD67002B09295900597211 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EFFD66EA2B09295800597211;
+					};
+					EFFD670A2B09295900597211 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EFFD66EA2B09295800597211;
+					};
+				};
+			};
+			buildConfigurationList = EFFD66E62B09295800597211 /* Build configuration list for PBXProject "Thukivakam_Movies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFFD66E22B09295800597211;
+			productRefGroup = EFFD66EC2B09295800597211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFFD66EA2B09295800597211 /* Thukivakam_Movies */,
+				EFFD67002B09295900597211 /* Thukivakam_MoviesTests */,
+				EFFD670A2B09295900597211 /* Thukivakam_MoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFFD66E92B09295800597211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFD66FB2B09295900597211 /* LaunchScreen.storyboard in Resources */,
+				EFFD66F82B09295900597211 /* Assets.xcassets in Resources */,
+				EFFD66F62B09295800597211 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFD66FF2B09295900597211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFD67092B09295900597211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFFD66E72B09295800597211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFD67232B095EFF00597211 /* MovieData.swift in Sources */,
+				EFFD66F32B09295800597211 /* GenreViewController.swift in Sources */,
+				EFFD66EF2B09295800597211 /* AppDelegate.swift in Sources */,
+				EFFD67212B094E3E00597211 /* MovieCollectionViewCell.swift in Sources */,
+				EFFD66F12B09295800597211 /* SceneDelegate.swift in Sources */,
+				EFFD671F2B092D3F00597211 /* MoviesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFD66FD2B09295900597211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFD67062B09295900597211 /* Thukivakam_MoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFD67072B09295900597211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFD67122B09295900597211 /* Thukivakam_MoviesUITestsLaunchTests.swift in Sources */,
+				EFFD67102B09295900597211 /* Thukivakam_MoviesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFFD67032B09295900597211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFFD66EA2B09295800597211 /* Thukivakam_Movies */;
+			targetProxy = EFFD67022B09295900597211 /* PBXContainerItemProxy */;
+		};
+		EFFD670D2B09295900597211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFFD66EA2B09295800597211 /* Thukivakam_Movies */;
+			targetProxy = EFFD670C2B09295900597211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFFD66F42B09295800597211 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFFD66F52B09295800597211 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFFD66F92B09295900597211 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFFD66FA2B09295900597211 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFFD67132B09295900597211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFFD67142B09295900597211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFFD67162B09295900597211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Thukivakam_Movies/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Thukivakam-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFFD67172B09295900597211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Thukivakam_Movies/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Thukivakam-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFFD67192B09295900597211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Thukivakam-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thukivakam_Movies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Thukivakam_Movies";
+			};
+			name = Debug;
+		};
+		EFFD671A2B09295900597211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Thukivakam-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thukivakam_Movies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Thukivakam_Movies";
+			};
+			name = Release;
+		};
+		EFFD671C2B09295900597211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Thukivakam-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thukivakam_Movies;
+			};
+			name = Debug;
+		};
+		EFFD671D2B09295900597211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Thukivakam-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thukivakam_Movies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFFD66E62B09295800597211 /* Build configuration list for PBXProject "Thukivakam_Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFD67132B09295900597211 /* Debug */,
+				EFFD67142B09295900597211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFD67152B09295900597211 /* Build configuration list for PBXNativeTarget "Thukivakam_Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFD67162B09295900597211 /* Debug */,
+				EFFD67172B09295900597211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFD67182B09295900597211 /* Build configuration list for PBXNativeTarget "Thukivakam_MoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFD67192B09295900597211 /* Debug */,
+				EFFD671A2B09295900597211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFD671B2B09295900597211 /* Build configuration list for PBXNativeTarget "Thukivakam_MoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFD671C2B09295900597211 /* Debug */,
+				EFFD671D2B09295900597211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFFD66E32B09295800597211 /* Project object */;
+}
