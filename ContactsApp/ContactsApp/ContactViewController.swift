@@ -24,13 +24,28 @@ class ContactViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imageOL.image=UIImage(named: Img)
+       // imageOL.image=UIImage(named: Img)
         nameOL.text="\(Name)"
         mobileOL.text=mobileOL.text!+"\(Mobile)"
         emailOL.text=emailOL.text!+"\(Email)"
+        updateAndAnimate(Img)
         
     }
     
+    func updateAndAnimate(_ imageName : String){
+                    var width = imageOL.frame.width
+                    width += 40
+                    var height = imageOL.frame.height
+                    height = height + 40
+                    let x  =  imageOL.frame.origin.x-20
+                    let y = imageOL.frame.origin.y-20
+                    let largeFrame = CGRect(x: x, y: y, width: width, height: height)
+                    UIView.animate(withDuration: 1, delay: 0, usingSpringWithDamping: 0.4, initialSpringVelocity: 50, animations: {
+                        self.imageOL.frame = largeFrame
+                        self.imageOL.image = UIImage(named:imageName)
+                    })
+        }
+        
 
     /*
     // MARK: - Navigation
